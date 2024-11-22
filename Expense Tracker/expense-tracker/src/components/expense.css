@@ -1,0 +1,73 @@
+.expense-tracker{
+    max-width: 500px;
+    margin: 50px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    font-size:2.5rem;
+    color:#333;
+    margin-bottom: 20px;
+}
+
+.tracker-form input{
+    padding:10px;
+    margin:5px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 40%;
+}
+
+.tracker-form button{
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tracker-form button:hover{
+    background-color: #333;
+}
+
+.tracker-summary{
+    margin:20px 0;
+    font-size: 1.5rem;
+    color:#333;
+}
+
+.transaction-list{
+    list-style: none;
+    padding: 0;
+}
+
+.transaction-item{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.delete-btn{
+    padding: 5px 10px;
+    font-size: 1rem;
+    color: white;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.delete-btn:hover{
+    background-color: #fff;
+}
